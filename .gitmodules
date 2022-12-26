@@ -1,3 +1,4 @@
 [submodule "clash-intel8080"]
 	path = clash-intel8080
 	url = https://github.com/gergoerdi/clash-intel8080.git
+	ignore = dirty

@@ -63,7 +63,7 @@ video (unsafeFromSignal -> extAddr) (unsafeFromSignal -> extWrite) =
 
     border = (0x30, 0x30, 0x30)
     palette 0 = (0x00, 0x00, 0x00)
-    palette 1 = (0xff, 0xff, 0xff)
+    palette _ = (0xff, 0xff, 0xff)
 
 toVidAddr :: Index BufX -> Index BufY -> VidAddr
 toVidAddr x y = bitCoerce (y, x)

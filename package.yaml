@@ -29,6 +29,7 @@ dependencies:
   - ghc-typelits-knownnat
 
   - retroclash-lib
+  - retroclash-sim
   - clash-shake
   - intel8080
 

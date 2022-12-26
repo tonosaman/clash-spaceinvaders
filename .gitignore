@@ -1,2 +1,4 @@
 /*.cabal
 _build
+.stack-work/
+hie.yaml
